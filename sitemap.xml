@@ -48,36 +48,6 @@
   </url>
   
   <url>
-    <loc>/tag/cross-sectional-incidence/</loc>
-    <lastmod>2020-04-06T12:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/cross-sectional-incidence-estimation/</loc>
-    <lastmod>2020-04-06T12:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/hiv/</loc>
-    <lastmod>2020-04-06T12:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/ktsp/</loc>
-    <lastmod>2020-04-06T12:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/phip-seq/</loc>
-    <lastmod>2020-04-06T12:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/20200426_ktsp_blitz/</loc>
-    <lastmod>2020-04-06T12:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/talk/20191204_dataanalysis/</loc>
     <lastmod>2019-12-04T13:30:00+00:00</lastmod>
   </url>
@@ -94,6 +64,21 @@
   
   <url>
     <loc>/publication/20190430_cellreports/</loc>
+    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/cross-sectional-incidence/</loc>
+    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/hiv/</loc>
+    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/phip-seq/</loc>
     <lastmod>2019-04-30T00:00:00+00:00</lastmod>
   </url>
   
