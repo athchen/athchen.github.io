@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>courses | Athena Chen</title>
+    <link>/tag/courses/</link>
+      <atom:link href="/tag/courses/index.xml" rel="self" type="application/rss+xml" />
+    <description>courses</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 24 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu4d503d6cbea57a74da0f7fb86944780b_6724_512x512_fill_lanczos_center_2.png</url>
+      <title>courses</title>
+      <link>/tag/courses/</link>
+    </image>
+    
+    <item>
+      <title>Predicting Finish Placements in PUBG</title>
+      <link>/project/pubg/</link>
+      <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>/project/pubg/</guid>
+      <description>&lt;p&gt;Battle royale games have surged in popularity in recent years. The premise of such games is as follows: players are dropped onto a fictional island and fight to be the last person standing. As they roam around the island, they loot for weapons and items crucial for their survival. Players can choose to join a game as a solo player or with a group of friends (4 players maximum). When playing solo, players are immediately eliminated when they are killed. Players not only have to worry about getting killed by other players, but they also have to stay within the shrinking &amp;ldquo;safe zone,&amp;rdquo; which effectively forces players into contact with each other. Outside of the &amp;ldquo;safe zone,&amp;rdquo; players take damage to their health at increasing rates.&lt;/p&gt;
+&lt;p&gt;The main goal of this project is to predict a solo player&amp;rsquo;s finish placement based on their in-game actions. Specifically, we wanted to answer:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;How well can we predict who will win the game?&lt;/li&gt;
+&lt;li&gt;What player actions or features are most predictive of their finish placement?&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

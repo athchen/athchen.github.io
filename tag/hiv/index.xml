@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HIV | Athena Chen</title>
+    <link>/tag/hiv/</link>
+      <atom:link href="/tag/hiv/index.xml" rel="self" type="application/rss+xml" />
+    <description>HIV</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 30 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu4d503d6cbea57a74da0f7fb86944780b_6724_512x512_fill_lanczos_center_2.png</url>
+      <title>HIV</title>
+      <link>/tag/hiv/</link>
+    </image>
+    
+    <item>
+      <title>Comprehensive Profiling of HIV Antibody Evolution</title>
+      <link>/publication/20190430_cellreports/</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/20190430_cellreports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developing Cross-Sectional Methods to Estimate HIV Incidence</title>
+      <link>/project/hiv_incidence/</link>
+      <pubDate>Sun, 24 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>/project/hiv_incidence/</guid>
+      <description>&lt;p&gt;HIV incidence can be determined by following cohorts of HIV-uninfected individuals and quantifying the number of new HIV cases or by using cross-sectional methods. Current cross-sectional methods of estimating HIV incidence utilize multi-assay algorithms (MAAs) to classify individuals as recently or non-recently infected. However, serologic assays that measure general antibody responses to HIV infection may be impacted by viral suppresion (innate or via antiretroviral therapy treatment (ART)), loss of CD4 T-cells, and other factors, resulting in inaccurate incidence estimates. Consequently, we are interested in developing more accurate methods for cross-sectional incidence estimation.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

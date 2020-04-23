@@ -1,0 +1,18 @@
+{
+  "name": "Athena Chen",
+  "short_name": "Athena Chen",
+  "lang": "en-us",
+  "theme_color": "#5C8ACC",
+  "background_color": "#5C8ACC",
+  "icons": [{
+    "src": "/images/icon_hu4d503d6cbea57a74da0f7fb86944780b_6724_192x192_fill_lanczos_center_2.png",
+    "sizes": "192x192",
+    "type": "image/png"
+    }, {
+    "src": "/images/icon_hu4d503d6cbea57a74da0f7fb86944780b_6724_512x512_fill_lanczos_center_2.png",
+    "sizes": "512x512",
+    "type": "image/png"
+     }],
+  "display": "standalone",
+  "start_url": "/?utm_source=web_app_manifest"
+}

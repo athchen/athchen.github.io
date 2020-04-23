@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Athena Chen</title>
+    <link>/author/athena-chen/</link>
+      <atom:link href="/author/athena-chen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Athena Chen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 08 Nov 2016 16:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/author/athena-chen/avatar_hu27f7dc34c9db8fd2b063f3fba6be9864_302162_270x270_fill_q90_lanczos_center.jpg</url>
+      <title>Athena Chen</title>
+      <link>/author/athena-chen/</link>
+    </image>
+    
+    <item>
+      <title>Spatial Cell Modeling: Applications and Evaluation of Methodologies</title>
+      <link>/talk/20161108_spatialcellmodelingmethods/</link>
+      <pubDate>Tue, 08 Nov 2016 16:00:00 +0000</pubDate>
+      <guid>/talk/20161108_spatialcellmodelingmethods/</guid>
+      <description>&lt;p&gt;Due to the complexity of cells, it is useful to use computational tools to understand and predict mechanisms of biological processes. Ordinary differential equations (ODEs) and partial differential equations (PDEs) have proven to be successful at modeling various large systems. However, to understand certain biological processes such as bacterial cell division, high spatial resolution is necessary to discern the underlying mechanisms and interactions. ODEs and PDEs, along with the Gillespie algorithm for stochastic modeling, do not provide spatial resolution at a single-particle level; they are all concentration-based methods. MCell, the Free Propagator Reweighting Algorithm (FPR), and Smoldyn are algorithms that provide single-particle resolution, but may be computationally expensive and may not necessarily yield accurate protein dynamics.&lt;/p&gt;
+&lt;p&gt;In her recent work, Athena Chen and her mentors Dr. Margaret Johnson and Dr. Osman Yogurtcu in the Johns Hopkins Biophysics department, analyzed the strengths and limitations of ODEs, PDEs, Gillespie, MCell, Smoldyn, and FPR through establishing and performing a set of benchmark tests. Though all modeling methods extracted the correct equilibrium concentrations for most of the tested reactions, the resulting protein dynamics were not necessarily correct. Simulations at high rates and large densities showed that despite providing single-particle resolution, Smoldyn and MCell do not pick up single-particle effects where the distance between two molecules affects the probability of binding. Furthermore, the dynamics given by Smoldyn and MCell are dependent on the time step selected. On the other hand, FPR correctly identified single-particle effects and yielded dynamics independent of the selected timestep.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

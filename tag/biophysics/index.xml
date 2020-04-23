@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>biophysics | Athena Chen</title>
+    <link>/tag/biophysics/</link>
+      <atom:link href="/tag/biophysics/index.xml" rel="self" type="application/rss+xml" />
+    <description>biophysics</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 27 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu4d503d6cbea57a74da0f7fb86944780b_6724_512x512_fill_lanczos_center_2.png</url>
+      <title>biophysics</title>
+      <link>/tag/biophysics/</link>
+    </image>
+    
+    <item>
+      <title>Spatial Cell Modeling</title>
+      <link>/project/single-particle_modeling/</link>
+      <pubDate>Sun, 27 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>/project/single-particle_modeling/</guid>
+      <description>&lt;p&gt;Due to the complexity of cells, it is useful to use computational tools to understand and predict mechanisms of biological processes. Ordinary differential equations (ODEs) and partial differential equations (PDEs) have proven to be successful at modeling various large systems. However, to understand certain biological processes such as bacterial cell division, high spatial resolution is necessary to discern the underlying mechanisms and interactions. ODEs and PDEs, along with the Gillespie algorithm for stochastic modeling, do not provide spatial resolution at a single-particle level; they are all concentration-based methods. MCell, the Free Propagator Reweighting Algorithm (FPR), and Smoldyn are algorithms that provide single-particle resolution, but may be computationally expensive and may not necessarily yield accurate protein dynamics.&lt;/p&gt;
+&lt;p&gt;I worked with 
+&lt;a href=&#34;https://biophysics.jhu.edu/directory/margaret-johnson/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Margaret Johnson&lt;/a&gt; to analyze the strengths and limitations of current state-of-the-art approaches for modeling spatial and temporal dynamics in the cell. I helped establish and perform benchmark tests for comparing the accuracy of a range of methodologies, including single-particle models like those developed in our lab, as well as differential equation based methods, and stochastic simulation methods. We evaluated the effects of molecular geometry, diffusion, and stochasticity on protein dynamics in models of gene expression and cell division.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
