@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kTSP | Athena Chen</title>
+    <link>/tag/ktsp/</link>
+      <atom:link href="/tag/ktsp/index.xml" rel="self" type="application/rss+xml" />
+    <description>kTSP</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 06 Apr 2020 12:15:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu4d503d6cbea57a74da0f7fb86944780b_6724_512x512_fill_lanczos_center_2.png</url>
+      <title>kTSP</title>
+      <link>/tag/ktsp/</link>
+    </image>
+    
+    <item>
+      <title>Top Scoring Pairs Classifier for Identifying Recent HIV Infection</title>
+      <link>/talk/20200426_ktsp_blitz/</link>
+      <pubDate>Mon, 06 Apr 2020 12:15:00 +0000</pubDate>
+      <guid>/talk/20200426_ktsp_blitz/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
