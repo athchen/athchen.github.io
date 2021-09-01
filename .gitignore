@@ -40,3 +40,6 @@ rsconnect/
 # Mac stuff
 .DS_Store
 .Rproj.user
+
+# Webpage stuff
+resources/

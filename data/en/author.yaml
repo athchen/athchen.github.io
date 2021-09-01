@@ -9,7 +9,16 @@ contactInfo:
   address: "615 N. Wolfe St., E3035, Baltimore, MD 21202"
 
 # some summary about what you do
-summary: 'I am a 5th-year PhD student in the [Department of Biostatistics](https://www.jhsph.edu/departments/biostatistics/) at the [Johns Hopkins Bloomberg School of Public Health](https://www.jhsph.edu/). I currently work with [Dr. Ingo Ruczinski](http://www.biostat.jhsph.edu/~iruczins/) and [Dr. H. Benjamin Larman](http://labs.pathology.jhu.edu/larman/) to characterize antibody responses to various antigens using phage-immunoprecipitation sequencing technology ([PhIP-Seq](https://www.nature.com/articles/s41596-018-0025-6)). '
+summary: 'I am a 5th-year PhD student in the 
+[Department of Biostatistics](https://www.jhsph.edu/departments/biostatistics/) 
+at the [Johns Hopkins Bloomberg School of Public Health](https://www.jhsph.edu/). 
+I currently work with [Dr. Ingo Ruczinski](http://www.biostat.jhsph.edu/~iruczins/) 
+and [Dr. H. Benjamin Larman](http://labs.pathology.jhu.edu/larman/) to 
+characterize antibody responses to various antigens using phage-immunoprecipitation 
+sequencing technology ([PhIP-Seq](https://www.nature.com/articles/s41596-018-0025-6)). 
+
+My research interests include Bayesian statistics, statistical genomics and proteomics, 
+data analysis and data analysis teaching, immunology and the human microbiome.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -26,3 +35,4 @@ socialLinks:
 - name: LinkedIn
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/athena-chen-3706b6a6/"
+  
