@@ -34,12 +34,13 @@ p {
   color: #3c4858;
 }
 
-a {
-  color: #248aaa;
+a,
+i {
+  color: #368dff;
 }
 
-a:hover {
-  color: #207089;
+a:hover, i:hover {
+  color: #0370ff;
 }
 
 .nav-button {

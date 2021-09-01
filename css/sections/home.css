@@ -13,8 +13,7 @@
   margin: 0;
   background-attachment: fixed;
   background-position: center;
-  transform: scale(1.1);
-  filter: blur(3px);
+  transform: scale(1);
   background-size: cover;
 }
 
@@ -56,6 +55,23 @@
 
 #typing-carousel-data {
   display: none;
+}
+
+.social-link {
+  list-style: none;
+  padding: 0.2rem;
+  color: #83b8ff;
+}
+
+.social-link a {
+  font-size: 1.5rem;
+  color: #83b8ff;
+  padding: 0.5rem;
+}
+
+.social-link a:hover {
+  color: #509bff;
+  transition: all 0.3s ease-in;
 }
 
 .arrow {
@@ -160,4 +176,7 @@
 
 /* iPhone 5 or before */
 @media only screen and (max-width: 320px) {
+  .social-link {
+    flex-wrap: wrap;
+  }
 }
