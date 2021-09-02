@@ -1,6 +1,8 @@
 # section information
 section:
-  name: Publications
+  name: Publications # What is shown on the navbar
+  title: Recent Publications # What is shown in the section header
+  subtitle: "A list of all publications can be found [here](https://scholar.google.com/citations?hl=en&user=BVuiP-kAAAAJ)"
   id: accomplishments
   enable: true
   weight: 4
@@ -8,37 +10,82 @@ section:
   # Can optionally hide the title in sections
   # hideTitle: true
 
-
+  
 # Your accomplishments
 accomplishments:
-- name: Linux Foundation System Administrator
-  timeline: "March 2018 - March 2019"
+- name: Diagnosing Data Analytic Problems in the Classroom
+  authors: "Peng, R., **Chen, A.**, Bridgeford, E., Leek, J. T. & Hicks, S. C. "
+  timeline: "Aug 2021"
   organization:
-    name: Linux Foundation
+    name: Journal of Statistics and Data Science Education
     url: https://www.linuxfoundation.org
-  courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
-  certificateURL: "https://example.com"
+  courseOverview: "Teaching data analysis by providing students with real-world 
+  problems and datasets allows students to integrate a variety of skills in a 
+  situation that mirrors how data analysis actually works. However, whole data 
+  analyses may obscure the individual skills of data analytic practice that are 
+  generalizable across data analyses. One such skill is the ability to diagnose 
+  the cause of unexpected results in a data analysis. We describe an approach to 
+  teaching students skills in diagnosing data analytic problems."
+  buttons: 
+  - name: Publication
+    url: "https://www.tandfonline.com/doi/full/10.1080/26939169.2021.1971586"
 
-- name: Machine Learning
-  timeline: "Jun 2020 - Jan 2021"
+- name: HIV Antibody Profiles in HIV Controllers and Persons With Treatment-Induced Viral Suppression
+  authors: "Kammers, K., **Chen, A.**, Monaco, D. R., Hudelson, S. E., Grant-McAuley, W., Moore, R. D., Alter, G., Deeks, S. G., Morrison, C. S., Eller, L. A.,
+Blankson, J. N., Laeyendecker, O., Ruczinski, I., Eshleman, S. H. & Larman, H. B."
+  timeline: "Aug 2021"
   organization:
-    name: Coursera
-    url: https://www.coursera.org
-  courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
-  certificateURL: "https://example.com"
+    name: Frontiers in Immunology
+    url: https://www.frontiersin.org/articles/10.3389/fimmu.2021.740395/full
+  courseOverview: "Low HIV viral load is associated with delayed disease progression and reduced HIV transmission. HIV controllers suppress viral load to low levels in the absence of antiretroviral treatment (ART). We used an antibody profiling system, VirScan, to compare antibody reactivity and specificity in HIV controllers, non-controllers with treatment-induced viral suppression, and viremic non-controllers."
+  buttons: 
+  - name: Publication
+    url: "https://www.frontiersin.org/articles/10.3389/fimmu.2021.740395/full"
+    
+- name: A top scoring pairs classifier for recent HIV infections
+  authors: "**Chen, A.**, Laeyendecker, O., Eshleman, S. H., Monaco, D. R., Kammers, K., Larman, H. B. & Ruczinski, I."
+  timeline: "Mar 2021"
+  organization:
+    name: Statistics in Medicine
+    url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.8920"
+  courseOverview: "As availability and use of antiretroviral treatment increase worldwide, algorithms that do not include HIV viral load and are not impacted by viral suppression are needed for cross-sectional HIV incidence estimation. Using a phage display system to quantify antibody binding to over 3300 HIV peptides, we present a classifier based on top scoring peptide pairs that identifies recent infections using HIV antibody responses alone."
+  buttons:
+  - name: Publication 
+    url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.8920"
+  - name: Code
+    icon: "fab fa-github"
+    url: "https://github.com/athchen/ktsp_paper/"
 
-- name: Grokking the System Design Interview
-  timeline: "Jan 2018 - Sept 2018"
+- name: "Antibody responses to endemic coronaviruses modulate COVID-19 convalescent plasma functionality"
+  authors: "Morgenlander,  W. M., Henson, S. N., Monaco, D. R., **Chen, A.**, Littlefield, K., Bloch, E. M., Fujimura, E., Ruczinski, I., Crowley, A. R., Harini, N., Butler, S. E., Weiner, J. A., Li, M. Z., Bonny, T. S., Benner, S. E., Balagopal, A., Sullivan, D., Shoham, S., Quinn, T. C., Eshleman, S., Casadevall, A., Redd, A. D., Laeyendecker, O., Ackerman, M. E., Andrew, P., Elledge, S. J., Robinson, M. L., Tobian, A. A. R. & Larman, H. B."
+  timeline: "Feb 2021"
   organization:
-    name: educative
-    url: https://www.educative.io
-  courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
-  certificateURL: "https://example.com"
-
-- name: Mastering Multithreading Programming with Go (Golang)
-  timeline: "Nov 2017 - Mar 2018"
+    name: The Journal of Clinical Investigation
+    url: "https://www.jci.org/articles/view/146927"
+  courseOverview: "SARS-CoV-2 (CoV2) antibody therapies, including COVID-19 convalescent plasma (CCP), monoclonal antibodies, and hyperimmune globulin, are among the leading treatments for individuals with early COVID-19 infection. The functionality of convalescent plasma varies greatly, but the association of antibody epitope specificities with plasma functionality remains uncharacterized. We assessed antibody functionality and reactivities to peptides across the CoV2 and the 4 endemic human coronavirus (HCoV) genomes in 126 CCP donations."
+  buttons: 
+  - name: Publication
+    url: "https://www.jci.org/articles/view/146927"
+  
+- name: Quantifying the roles of space and stochasticity in computer simulations for cell biology and cellular biochemistry
+  authors: "Johnson, M. E., **Chen, A.**, Faeder, J. R., Henning, P., Moraru, I. I., Meier-Schellersheim, M., Murphy, R. F., Prustel, T., Theriot, J. A. & Uhrmacher, A. M."
+  timeline: "Jan 2021"
   organization:
-    name: Udemy
-    url: https://www.udemy.com
-  courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, mulithreading topics.
-  certificateURL: "https://example.com"
+    name: Molecular Biology of the Cell
+    url: "https://www.molbiolcell.org/doi/10.1091/mbc.E20-08-0530"
+  courseOverview: "Most of the fascinating phenomena studied in cell biology emerge from interactions among highly organized multimolecular structures embedded into complex and frequently dynamic cellular morphologies. For the exploration of such systems, computer simulation has proved to be an invaluable tool, and many researchers in this field have developed sophisticated computational models for application to specific cell biological questions. We have defined a series of computational test cases ranging from very simple to moderately complex, varying key features of dimensionality, reaction type, reaction speed, crowding, and cell size. We then quantified how explicit spatial and/or stochastic implementations alter outcomes, even when all methods use the same reaction network, rates, and concentrations."
+  buttons: 
+  - name: Publication 
+    url: "https://www.molbiolcell.org/doi/10.1091/mbc.E20-08-0530"
+    
+- name: Comprehensive profiling of HIV antibody evolution
+  authors: "Eshleman, S. H., Laeyendecker, O., Kammers, K., Chen, A., Sivay, M. V., Kottapalli, S., Sie, B. M., Yuan, T., Monaco, D. R., Mohan, D., Wansley, D., Kula, T., Morrison, C., Elledge, S. J., Brookmeyer, R., Ruczinski, I. & Larman, H. B."
+  timeline: "Apr 2019"
+  organization:
+    name: Cell Reports
+    url: "https://pubmed.ncbi.nlm.nih.gov/31042470/"
+  courseOverview: "This study evaluates HIV antibody responses and their evolution during the course of HIV infection. A phage display system is used to characterize antibody binding to >3,300 HIV peptides in 57 adults with early- to late-stage infection."
+  buttons: 
+  - name: Publication 
+    url: "https://pubmed.ncbi.nlm.nih.gov/31042470/"
+  

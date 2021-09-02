@@ -5,13 +5,17 @@
 
 <div class="container-fluid anchor pb-5 accomplishments-section" id="{{ $sectionID }}">
   {{ if not (.section.hideTitle) }}
-    <h1 class="text-center">{{ .section.name }}</h1>
+    <h1 class="text-center">{{ .section.title }}</h1>
   {{ end }}
-
+  {{ if gt (len .accomplishments) 2 }}
+    <h6 class="text-center"><em>{{ .section.subtitle | markdownify }}</em></h6>
+  {{ end }}
   <div class="container">
-    <div class="row" id="acomplishment-card-holder">
-      {{ range .accomplishments }}
+    <div id="acomplishment-card-holder">
+      {{ range $index, $accomplishments := .accomplishments }}
+        <div style="{{ if gt $index 2 }}display: none; transition: all 1s ease-out;{{ end }}"> 
         {{ partial "cards/accomplishments" . }}
+        </div>
       {{ end }}
     </div>
   </div>
