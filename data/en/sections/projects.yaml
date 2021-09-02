@@ -3,7 +3,7 @@ section:
   name: Projects
   id: projects
   enable: true
-  weight: 1
+  weight: 3
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -13,9 +13,11 @@ buttons:
 - name: All
   filter: "all"
 - name: Current
-  filter: "Current"
+  filter: "current"
 - name: R packages
   filter: "R package"
+- name: Statistical methods
+  filter: "statistical method"
 
 # your projects
 projects:
@@ -23,38 +25,53 @@ projects:
   logo: /images/hex/beer_phage.png
   role: Developer
   timeline: "Apr 2020 - Present"
-  repo: https://github.com/athchen/beer
-  #url: ""
+  url: "https://github.com/athchen/beer"
   summary: Bayesian method for identifying enriched antibody responses from PhIP-Seq data.
-  tags: ["Bioconductor", "R package", "PhIP-Seq", "Statistical method", "Current"]
+  tags: ["current", "R package", "statistical method"]
+  buttons: 
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://github.com/athchen/beer"
   
 - name: PhIPData
-  logo: "/images/hex/PhIP-Seq.png"
   role: Developer
   timeline: "Feb 2021 - Present"
-  #repo: https://github.com/athchen/PhIPData # If your project is a public repo on GitHub, then provide this link. it will show star count.
   url: "https://bioconductor.org/packages/release/bioc/html/PhIPData.html"
   summary: Package defining an S4 class for PhIP-Seq experiments. PhIPData allows users to coordinate metadata with experimental data in analyses. 
-  tags: ["Bioconductor", "R package", "PhIP-Seq", "Data infrastructure", "Current"]
+  tags: ["current", "R package", "data infrastructure"]
+  buttons: 
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://github.com/athchen/PhIPData"
+  - name: Bioconductor
+    icon: "fas fa-music"
+    url: "https://bioconductor.org/packages/release/bioc/html/PhIPData.html"
 
 - name: kTSP classifier for HIV cross-sectional incidence estimation
-  logo: "/images/hex/hiv.png"
   role: Research Assistant
   timeline: "May 2018 - Feb 2020"
-  url: "https://github.com/athchen/ktsp_paper"
+  url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.8920"
   summary: Extension of the kTSP classifier to longitudinal data to identify recent infections for HIV cross-sectional incidence estimation. 
-  tags: ["HIV", "PhIP-Seq", "Statistical method"]
+  tags: ["statistical method"]
+  buttons:
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://github.com/athchen/ktsp_paper"
+  - name: Publication
+    url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.8920"
   
 - name: Human phageome and toxome antigen library
   role: Research Assistant
   timeline: "Jun 2019 - Present"
   summary: Annotated antigen library derived from metagenomic sequencing of stool samples and analyzed data with the new library. 
-  tags: ["PhIP-Seq","Phageome", "Toxome", "Current"]
+  tags: ["current"]
   
 - name: Spatial Cell Modeling
-  logo: "/images/hex/spatial_cell_modeling.png"
   role: Research Assistant
   timeline: "Dec 2015 - Aug 2017"
   url: "https://www.molbiolcell.org/doi/10.1091/mbc.E20-08-0530"
   summary: Analyzed and assessed challenges facing current single-particle modeling methods of biochemical systems.
   tags: ["Computational Biology"]
+  buttons: 
+  - name: Publication
+    url: "https://www.molbiolcell.org/doi/10.1091/mbc.E20-08-0530"
