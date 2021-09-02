@@ -1,0 +1,57 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: PhD in Biostatistics
+  icon: fa-university
+  timeframe: 2017-2022
+  institution:
+    name: Johns Hopkins Bloomberg School of Public Health
+    url: "https://publichealth.jhu.edu/departments/biostatistics"
+  grade: 
+    scale: GPA
+    achieved: 3.75
+    outOf: 4
+  advisor: 
+    title: Advisor
+    name: Ingo Ruczinski, PhD
+  takenCourses:
+    showGrades: false
+    courses:
+      - name: Bayesian Methods
+      - name: Statistical Machine Learning
+      - name: Introductory Molecular Immunology
+      - name: Advanced Data Science
+  extracurricularActivities: #(optional)
+  - Biostatistics Student Organization Co-founder and President
+  - PhD Student Mentoring Committee Chair
+  - PhD Student Event Committee chair
+  - Biostatistics Graduate Program Recruiting Committee
+  
+- name: BA in Biophysics and Applied Mathematics and Statistics
+  icon: fa-graduation-cap
+  timeframe: 2014-2017
+  institution:
+    name: Johns Hopkins University
+    url: "https://www.jhu.edu/"
+  grade: #(optional)
+    scale: GPA
+    achieved: 3.92
+    outOf: 4.0
+  advisor:
+    title: Thesis Advisor
+    name: Margaret Johnson, PhD
+  thesis: 
+    type: Honors Thesis
+    title: Evaluation and Application of Spatial Cell Modeling Methodologies
+  other: 
+  - Graduated with general and departmental honors. 
+  - Dean's List for all semesters
