@@ -74,11 +74,11 @@
 }
 
 .paginator .page-item > a {
-  color: #248aaa;
+  color: #6493d1;
 }
 
 .paginator .page-item.active > a {
-  background-color: #248aaa;
+  background-color: #6493d1;
   color: #f9fafc;
 }
 

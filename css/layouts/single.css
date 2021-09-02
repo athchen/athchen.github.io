@@ -81,7 +81,7 @@ body {
 .toc .nav-link.active {
   padding-left: 1rem;
   padding-right: 0.5rem;
-  background-color: #248aaa;
+  background-color: #6493d1;
   color: #f9f9f9;
   transition: all ease-out 0.3s;
 }
@@ -145,7 +145,7 @@ h6 {
 }
 
 .post-content blockquote {
-  border-left: 4px solid #248aaa;
+  border-left: 4px solid #6493d1;
   background-color: #248baa15;
   padding: 0.3rem;
   padding-left: 1rem;
@@ -187,7 +187,7 @@ h6 {
 .next-prev-navigator .btn-outline-info {
   color: #f9fafc !important;
   border-color: #e5e9f2 !important;
-  background-color: #248aaa !important;
+  background-color: #6493d1 !important;
   transition: all 0.3s ease-out;
 }
 
@@ -217,7 +217,7 @@ h6 {
   position: fixed;
   bottom: 0rem;
   right: 1rem;
-  color: #248aaa;
+  color: #6493d1;
   font-size: 24pt;
   z-index: 900000;
   visibility: hidden;
@@ -243,7 +243,7 @@ h6 {
   font-size: .8em;
   list-style-type: none;
   display: inline-block;
-	background: #248aaa;
+	background: #6493d1;
 }
 
 .taxonomy-terms a{
