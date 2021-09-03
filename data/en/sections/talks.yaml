@@ -1,0 +1,57 @@
+# section information
+section:
+  name: Talks # What is shown on the navbar
+  title: Recent & Upcoming Talks # What is shown in the section header
+  id: talks
+  template: sections/talks.html
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+  
+# Your accomplishments
+accomplishments:
+- name: Antibody Profiling Identifies Antibody Targets Associated with Natural HIV Control
+  timeline: "Mar 2021"
+  location: Virtual
+  organization:
+    name: Conference on Retroviruses and Opportunistic Infections
+    url: "https://www.croiconference.org/croi-2021/"
+  buttons: 
+  - name: Video
+    icon: "fa fa-video"
+    url: "http://www.croiwebcasts.org/console/player/47283?mediaType=slideVideo&"
+    
+- name: Introduction to workflowr
+  timeline: "Dec 15, 2020"
+  location: Virtual
+  organization:
+    name: JHSPH Biostatistics Computing Club 
+  buttons: 
+  - name: Code
+    icon: "fab fa-github"
+    url: "https://github.com/athchen/intro_to_workflowr"
+    
+- name: Introduction to JAGS and rJAGS
+  timeline: "Apr 28, 2020"
+  location: Virtual
+  organization:
+    name: JHSPH Biostatistics Computing Club 
+  buttons: 
+  - name: Code
+    icon: "fab fa-github"
+    url: "https://github.com/athchen/intro_to_JAGS"
+
+- name: Top Scoring Pairs Classifier for Identifying Recent HIV Infection
+  timeline: "Apr 6, 2020"
+  location: Virtual
+  organization:
+    name: Johns Hopkins Biostatistics Seminar
+  buttons: 
+  - name: Slides
+    icon: "fas fa-tv"
+    url: "https://docs.google.com/presentation/d/1K_k1nfJw0WP0Dz1xjESb2iRcO4m6Y1Yni22gY-qQOwg/edit?usp=sharing"
+
+  

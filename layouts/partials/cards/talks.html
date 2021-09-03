@@ -1,0 +1,32 @@
+<div class="col-md-12 col-lg-6 p-2">
+  <div class="card mt-3">
+    <div class="card-header">
+      <h5 class="card-title mb-0">{{ .name }}</h5>
+      <div class="sub-title">
+        <span><a href="{{ .organization.url }}" title="{{ .organization.name }}" target="_blank" rel="noopener">{{ .organization.name }}</a> | {{ .timeline }}</span> <br>
+        <span>{{ .location }}</span>
+      </div>
+    </div>
+    <div class="card-body">
+      <p>{{ .courseOverview | markdownify }}</p>
+    </div>
+    <div class="card-footer">
+      {{ if .buttons }}
+        {{ range .buttons }}
+          <span>
+            <a 
+              class="btn btn-outline-info ml-1 pl-2 mb-2" 
+              href="{{ .buttons.url }}" 
+              target="_blank", 
+              rel="noopener" role="button">
+                  {{ if .icon }}
+                    <i class="{{ .icon }}" style="color:#6493d1"></i>
+                  {{ end }}
+                  {{ .name }} 
+            </a>
+          </span>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</div>

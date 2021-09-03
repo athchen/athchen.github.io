@@ -1,0 +1,69 @@
+# section information
+section:
+  name: Teaching
+  id: teaching
+  template: sections/teaching.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+positions:
+- name: Graduate Teaching Assistant
+  icon: fa-university
+  timeframe: 2017-2022
+  institution:
+    name: Johns Hopkins Bloomberg School of Public Health
+    url: "https://publichealth.jhu.edu/departments/biostatistics"
+  responsibilities: 
+  - Guided students through lab exercises and discussions of course material.
+  - Provided feedback on assignments to facilitate a better understanding of course concepts.
+  takenCourses:
+    courses:
+      - name: Statistical Computing
+        date: "Fall 2021"
+        instructors: Stephanie Hicks, PhD
+      - name: Bayesian Methods I and II
+        date: Spring 2021
+        instructors: Gary Rosner, PhD and Robert Scharpf, PhD
+      - name: Advanced Data Science
+        date: Fall 2019/2020
+        instructors: Jeff Leek, PhD; Stephanie Hicks, PhD; and Roger Peng, PhD
+      - name: Data Wrangling with R
+        date: Summer 2020
+        instructors: Andrew Jaffe, PhD and John Muschelli, PhD
+      - name: Introduction to R for Public Health Researchers
+        date: Summer 2020 
+        instructors: Andrew Jaffe, PhD and John Muschelli, PhD
+      - name: Statistics for Laboratory Scientists I and II
+        date: Spring 2020
+        instructors: Ingo Ruczinski, PhD
+      - name: Statistical Methods in Public Health III and IV
+        date: Spring 2019
+        instructors: Marie Diener-West, PhD; Leah Jager, PhD; and James Tonascia, PhD
+      - name: Methods in Biostatistics I and II
+        date: Fall 2018
+        instructors: Ciprian Crainiceanu, PhD
+  
+- name: Undergraduate Teaching Assistant
+  icon: fa-graduation-cap
+  timeframe: 2016-2017
+  institution:
+    name: Johns Hopkins University
+    url: "https://www.jhu.edu/"
+  responsibilities: 
+  - Developed computer lab exercises on bioinformatic techniques to analyze omic data sets.
+  - Assisted students with homework and computing lab assignments.
+  - Led review sessions to reinforce topics introduced in lecture
+  takenCourses:
+    courses:
+      - name: Introduction to Bioinformatics
+        date: "Spring 2017"
+        instructors: Patrick Fleming, PhD
+      - name: Biochemistry I
+        date: Fall 2016
+        instructors: Patrick Fleming, PhD
+      - name: Discrete Mathematics
+        date: Summer 2016
+        instructors: Fred Torcaso, PhD
