@@ -1,0 +1,188 @@
+.teaching-section .education-info-table {
+  width: 100%;
+  border: none;
+}
+
+.teaching-section .education-info-table tr:hover {
+  background: none;
+}
+
+.teaching-section .education-info-table tr,
+.teaching-section .education-info-table th,
+.teaching-section .education-info-table td {
+  border: none;
+  padding: 0;
+}
+
+.teaching-section .timeframe {
+  color: #8392a5;
+  text-align: right;
+}
+
+.teaching-section .icon {
+  width: 2rem;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+}
+
+.teaching-section .icon .hline {
+  position: absolute;
+  left: 1rem;
+  top: 0;
+  background-color: #6493d1;
+  height: 100%;
+  width: 2px;
+}
+
+.teaching-section .education-info-table tr:first-child .hline {
+  height: 65%;
+  top: auto;
+}
+
+.teaching-section .education-info-table tr:last-child .hline {
+  height: 50%;
+}
+
+.teaching-section .icon-holder {
+  background-color: #6493d1;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  padding: 0.2rem;
+  text-align: center;
+  color: #e5e9f2;
+  position: relative;
+}
+
+.teaching-section .line {
+  width: 5%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.teaching-section .line div {
+  height: 2px;
+  /* width: 100%; */
+  margin-right: -1px;
+  background-color: #6493d1;
+}
+
+.teaching-section .degree-info {
+  padding: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-left: 2px solid #6493d1;
+  border-top: 1px solid #c0ccda;
+  border-bottom: 1px solid #c0ccda;
+  border-right: 1px solid #c0ccda;
+  border-radius: 5px;
+}
+
+.teaching-section .degree-info h5 {
+  margin-bottom: 0.3rem;
+}
+
+.teaching-section .taken-courses table {
+  margin-left: 0rem;
+  width: 100%;
+  transition: all 0.3s ease-out;
+  background: none;
+  border: none;
+}
+
+.teaching-section .taken-courses tr {
+  height: auto !important;
+}
+
+.teaching-section .taken-courses tr,
+.teaching-section .taken-courses td,
+.teaching-section .taken-courses th {
+  background: none;
+  border: none;
+  color: #212529;
+}
+
+.teaching-section .taken-courses .hidden-course {
+  display: none;
+  transition: all 1s ease-out;
+}
+
+.teaching-section .taken-courses ul {
+  margin-bottom: 0;
+}
+
+/*============ Education Alter Template =============*/
+.education-alt .degree-info {
+  border-right: 2px solid #6493d1;
+}
+
+/* ============= Device specific fixes ======= */
+
+/* Large screens such as TV */
+
+@media only screen and (min-width: 1824px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+/* IPad Pro */
+
+@media (max-width: 1024px) {
+  .teaching-section .container {
+    padding-left: 0;
+  }
+}
+
+/*  Large devices (desktops, 992px and up) */
+
+@media (max-width: 992px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media only screen and (max-width: 768px) {
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media only screen and (max-width: 576px) {
+  .teaching-section {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .teaching-section .container {
+    padding-right: 0;
+  }
+
+  .teaching-section .icon {
+    display: none;
+  }
+  .teaching-section .line {
+    display: none;
+  }
+  .teaching-section .timeframe {
+    text-align: left;
+  }
+}
+
+/* iPhoneX, iPhone 6,7,8 */
+
+@media only screen and (max-width: 375px) {
+}
+
+/* Galaxy S5, Moto G4 */
+
+@media only screen and (max-width: 360px) {
+}
+
+/* iPhone 5 or before */
+
+@media only screen and (max-width: 320px) {
+}

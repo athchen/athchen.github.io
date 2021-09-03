@@ -30,6 +30,10 @@
   padding-bottom: 0.3rem;
 }
 
+.darkicon {
+  color: #6493d1;
+}
+
 /* ============= Device specific fixes ======= */
 
 /* Large screens such as TV */

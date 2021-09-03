@@ -34,14 +34,13 @@
 }
 
 .project-tags-holder {
-  width: 70%;
+  width: 100%;
 }
 
 .project-btn-holder {
-  width: 30%;
+  width: 0%;
   display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .project-btn-holder span {
