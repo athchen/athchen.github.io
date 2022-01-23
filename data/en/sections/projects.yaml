@@ -29,6 +29,8 @@ projects:
   summary: Bayesian method for identifying enriched antibody responses from PhIP-Seq data.
   tags: ["current", "R package", "statistical method"]
   buttons: 
+  - name: Pre-print
+    url: "https://www.biorxiv.org/content/10.1101/2022.01.19.476926v1"
   - name: Github
     icon: "fab fa-github"
     url: "https://github.com/athchen/beer"
@@ -65,6 +67,9 @@ projects:
   timeline: "Jun 2019 - Present"
   summary: Annotated antigen library derived from metagenomic sequencing of stool samples and analyzed data with the new library. 
   tags: ["current"]
+  buttons:
+  - name: Pre-print
+    url: "https://www.biorxiv.org/content/10.1101/2021.10.01.462481v1"
   
 - name: Spatial Cell Modeling
   role: Research Assistant

@@ -22,7 +22,7 @@ positions:
   takenCourses:
     courses:
       - name: Statistical Computing
-        date: "Fall 2021"
+        date: Fall 2021
         instructors: Stephanie Hicks, PhD
       - name: Bayesian Methods I and II
         date: Spring 2021
