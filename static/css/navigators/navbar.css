@@ -18,17 +18,17 @@
 }
 
 .initial-navbar .navbar-brand {
-  color: #c0ccda;
+  color: #3C4858;
   font-weight: 600;
 }
 
 .initial-navbar li a {
-  color: #c0ccda;
+  color: #3C4858;
 }
 
 .initial-navbar .navbar-nav .active,
 .initial-navbar li a:hover {
-  color: #f9fafc;
+  color: #3d78c5;
   transition: all 0.3s ease-out;
 }
 
