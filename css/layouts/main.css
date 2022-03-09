@@ -18,9 +18,9 @@ Teal:       #248aaa
 Dark Blue:  #2098d1
 
 **New**
-Light Blue: #9fbce3
-Blue:       #6493d1
-Dark Blue:  #3d78c5
+Light Blue: #C6E1F2
+Blue:       #6cb0db
+Dark Blue:  #6cb0db
 */
 
 body {
@@ -33,11 +33,11 @@ h2,
 h3,
 h4,
 h5 {
-  color: #1c2d41;
+  color: #1C2D41;
 }
 
 strong {
-  color: #1c2d41 !important;
+  color: #1C2D41 !important;
 }
 
 p {
@@ -45,7 +45,7 @@ p {
 }
 
 a {
-  color: #6493d1;
+  color: #3d78c5;
 }
 
 a:hover {
@@ -53,11 +53,11 @@ a:hover {
 }
 
 i {
-  color: #F9FAFC;
+  color: #1C2D41;
 }
 
 i:hover {
-  color: #E5E9F2;
+  color: #3d78c5;
 }
 
 .nav-button {
@@ -76,8 +76,8 @@ i:hover {
 
 .btn-dark:hover,
 .btn-dark:focus {
-  background-color: #6493d1;
-  border-color: #6493d1;
+  background-color: #6cb0db;
+  border-color: #6cb0db;
   transition: all 0.3s ease-out;
 }
 
@@ -92,7 +92,7 @@ i:hover {
 }
 
 .btn-info {
-  background-color: #6493d1 !important;
+  background-color: #6cb0db !important;
   color: #e5e9f2 !important;
 }
 
@@ -102,7 +102,7 @@ i:hover {
 }
 
 .btn-link {
-  color: #6493d1;
+  color: #6cb0db;
 }
 
 .btn-link:hover {
@@ -212,7 +212,7 @@ td {
 }
 
 table thead tr {
-  background: #6493d1;
+  background: #6cb0db;
   color: #e5e9f2;
 }
 
@@ -284,7 +284,7 @@ a.header-anchor code {
 }
 
 kbd {
-  background-color: #6493d1 !important;
+  background-color: #6cb0db !important;
   color: #f9fafc;
 }
 
@@ -302,11 +302,11 @@ mark {
 }
 
 .paginator .page-item > a {
-  color: #6493d1;
+  color: #6cb0db;
 }
 
 .paginator .page-item.active > a {
-  background-color: #6493d1;
+  background-color: #6cb0db;
   color: #f9fafc;
 }
 
