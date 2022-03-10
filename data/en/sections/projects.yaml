@@ -30,10 +30,14 @@ projects:
   tags: ["current", "R package", "statistical method"]
   buttons: 
   - name: Pre-print
+    icon: "far fa-file-alt"
     url: "https://www.biorxiv.org/content/10.1101/2022.01.19.476926v1"
   - name: Github
     icon: "fab fa-github"
     url: "https://github.com/athchen/beer"
+  - name: Bioconductor
+    icon: "fas fa-music"
+    url: "https://bioconductor.org/packages/devel/bioc/html/beer.html"
   
 - name: PhIPData
   role: Developer
@@ -60,6 +64,7 @@ projects:
     icon: "fab fa-github"
     url: "https://github.com/athchen/ktsp_paper"
   - name: Publication
+    icon: "far fa-file-alt"
     url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.8920"
   
 - name: Human phageome and toxome antigen library
@@ -69,6 +74,7 @@ projects:
   tags: ["current"]
   buttons:
   - name: Pre-print
+    icon: "far fa-file-alt"
     url: "https://www.biorxiv.org/content/10.1101/2021.10.01.462481v1"
   
 - name: Spatial Cell Modeling
@@ -79,4 +85,5 @@ projects:
   tags: ["Computational Biology"]
   buttons: 
   - name: Publication
+    icon: "far fa-file-alt"
     url: "https://www.molbiolcell.org/doi/10.1091/mbc.E20-08-0530"

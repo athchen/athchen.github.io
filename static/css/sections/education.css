@@ -4,12 +4,13 @@
 }
 
 .education-section .education-info-table tr:hover {
-  background: none;
+  background: #e6f5ff;
 }
 
 .education-section .education-info-table tr,
 .education-section .education-info-table th,
 .education-section .education-info-table td {
+  background: #e6f5ff;
   border: none;
   padding: 0;
 }
@@ -51,7 +52,7 @@
   width: 2rem;
   padding: 0.2rem;
   text-align: center;
-  color: #e5e9f2;
+  color: #6493d1;
   position: relative;
 }
 

@@ -1,15 +1,17 @@
 .teaching-section .education-info-table {
+  background: #e6f5ff;
   width: 100%;
   border: none;
 }
 
 .teaching-section .education-info-table tr:hover {
-  background: none;
+  background: #e6f5ff;
 }
 
 .teaching-section .education-info-table tr,
 .teaching-section .education-info-table th,
 .teaching-section .education-info-table td {
+  background: #e6f5ff;
   border: none;
   padding: 0;
 }
@@ -30,7 +32,7 @@
   position: absolute;
   left: 1rem;
   top: 0;
-  background-color: #6493d1;
+  background-color: #3b96cf;
   height: 100%;
   width: 2px;
 }
@@ -45,13 +47,13 @@
 }
 
 .teaching-section .icon-holder {
-  background-color: #6493d1;
+  background-color: #3b96cf;
   border-radius: 50%;
   height: 2rem;
   width: 2rem;
   padding: 0.2rem;
   text-align: center;
-  color: #e5e9f2;
+  color: #e6f5ff;
   position: relative;
 }
 

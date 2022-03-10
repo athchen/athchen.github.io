@@ -1,7 +1,7 @@
 # section information
 section:
   name: Publications # What is shown on the navbar
-  title: Recent Publications # What is shown in the section header
+  title: Featured Publications # What is shown in the section header
   subtitle: "A list of all publications can be found [here](https://scholar.google.com/citations?hl=en&user=BVuiP-kAAAAJ)"
   id: publications
   template: sections/accomplishments.html
@@ -14,12 +14,33 @@ section:
   
 # Your accomplishments
 accomplishments:
+- name: Detecting Antibody Reactivities in Phage ImmunoPrecipitation Sequencing Data
+  authors: "**Chen, A.**, Kammers, K., Larman, H. B., Scharpf R. B., Ruczinski, I. "
+  timeline: "Jan 2021"
+  organization:
+    name: bioRxiv
+    url: https://www.biorxiv.org/content/10.1101/2022.01.19.476926v1
+  courseOverview: "Phage ImmunoPrecipitation Sequencing (PhIP-Seq) is a recently
+  developed technology to assess antibody reactivity, quantifying antibody binding 
+  towards hundreds of thousands of candidate epitopes. The output from PhIP-Seq 
+  experiments are read count matrices, similar to RNA-Seq data; however some 
+  important differences do exist. In this manuscript we investigated whether 
+  the publicly available method edgeR for normalization and analysis of RNA-Seq 
+  data is also suitable for PhIP-Seq data. We find that edgeR is remarkably effective, 
+  but improvements can be made and introduce a Bayesian framework specifically tailored 
+  for data from PhIP-Seq experiments (Bayesian Enrichment Estimation in R, BEER)."
+  buttons: 
+  - name: Pre-Print
+    icon: "far fa-file-alt"
+    url: "https://www.biorxiv.org/content/10.1101/2022.01.19.476926v1"
+  hidden: FALSE
+
 - name: Diagnosing Data Analytic Problems in the Classroom
   authors: "Peng, R., **Chen, A.**, Bridgeford, E., Leek, J. T. & Hicks, S. C. "
   timeline: "Aug 2021"
   organization:
     name: Journal of Statistics and Data Science Education
-    url: https://www.linuxfoundation.org
+    url: "https://www.tandfonline.com/doi/full/10.1080/26939169.2021.1971586"
   courseOverview: "Teaching data analysis by providing students with real-world 
   problems and datasets allows students to integrate a variety of skills in a 
   situation that mirrors how data analysis actually works. However, whole data 
@@ -29,7 +50,9 @@ accomplishments:
   teaching students skills in diagnosing data analytic problems."
   buttons: 
   - name: Publication
+    icon: "far fa-file-alt"
     url: "https://www.tandfonline.com/doi/full/10.1080/26939169.2021.1971586"
+  hidden: TRUE
 
 - name: HIV Antibody Profiles in HIV Controllers and Persons With Treatment-Induced Viral Suppression
   authors: "Kammers, K., **Chen, A.**, Monaco, D. R., Hudelson, S. E., Grant-McAuley, W., Moore, R. D., Alter, G., Deeks, S. G., Morrison, C. S., Eller, L. A.,
@@ -40,8 +63,10 @@ Blankson, J. N., Laeyendecker, O., Ruczinski, I., Eshleman, S. H. & Larman, H. B
     url: https://www.frontiersin.org/articles/10.3389/fimmu.2021.740395/full
   courseOverview: "Low HIV viral load is associated with delayed disease progression and reduced HIV transmission. HIV controllers suppress viral load to low levels in the absence of antiretroviral treatment (ART). We used an antibody profiling system, VirScan, to compare antibody reactivity and specificity in HIV controllers, non-controllers with treatment-induced viral suppression, and viremic non-controllers."
   buttons: 
-  - name: Publication
+  - name: Pre-Print
+    icon: "far fa-file-alt"
     url: "https://www.frontiersin.org/articles/10.3389/fimmu.2021.740395/full"
+  hidden: TRUE
     
 - name: A top scoring pairs classifier for recent HIV infections
   authors: "**Chen, A.**, Laeyendecker, O., Eshleman, S. H., Monaco, D. R., Kammers, K., Larman, H. B. & Ruczinski, I."
@@ -52,10 +77,12 @@ Blankson, J. N., Laeyendecker, O., Ruczinski, I., Eshleman, S. H. & Larman, H. B
   courseOverview: "As availability and use of antiretroviral treatment increase worldwide, algorithms that do not include HIV viral load and are not impacted by viral suppression are needed for cross-sectional HIV incidence estimation. Using a phage display system to quantify antibody binding to over 3300 HIV peptides, we present a classifier based on top scoring peptide pairs that identifies recent infections using HIV antibody responses alone."
   buttons:
   - name: Publication 
+    icon: "far fa-file-alt"
     url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.8920"
   - name: Code
     icon: "fab fa-github"
     url: "https://github.com/athchen/ktsp_paper/"
+  hidden: FALSE
 
 - name: "Antibody responses to endemic coronaviruses modulate COVID-19 convalescent plasma functionality"
   authors: "Morgenlander,  W. M., Henson, S. N., Monaco, D. R., **Chen, A.**, Littlefield, K., Bloch, E. M., Fujimura, E., Ruczinski, I., Crowley, A. R., Harini, N., Butler, S. E., Weiner, J. A., Li, M. Z., Bonny, T. S., Benner, S. E., Balagopal, A., Sullivan, D., Shoham, S., Quinn, T. C., Eshleman, S., Casadevall, A., Redd, A. D., Laeyendecker, O., Ackerman, M. E., Andrew, P., Elledge, S. J., Robinson, M. L., Tobian, A. A. R. & Larman, H. B."
@@ -66,7 +93,9 @@ Blankson, J. N., Laeyendecker, O., Ruczinski, I., Eshleman, S. H. & Larman, H. B
   courseOverview: "SARS-CoV-2 (CoV2) antibody therapies, including COVID-19 convalescent plasma (CCP), monoclonal antibodies, and hyperimmune globulin, are among the leading treatments for individuals with early COVID-19 infection. The functionality of convalescent plasma varies greatly, but the association of antibody epitope specificities with plasma functionality remains uncharacterized. We assessed antibody functionality and reactivities to peptides across the CoV2 and the 4 endemic human coronavirus (HCoV) genomes in 126 CCP donations."
   buttons: 
   - name: Publication
+    icon: "far fa-file-alt"
     url: "https://www.jci.org/articles/view/146927"
+  hidden: TRUE
   
 - name: Quantifying the roles of space and stochasticity in computer simulations for cell biology and cellular biochemistry
   authors: "Johnson, M. E., **Chen, A.**, Faeder, J. R., Henning, P., Moraru, I. I., Meier-Schellersheim, M., Murphy, R. F., Prustel, T., Theriot, J. A. & Uhrmacher, A. M."
@@ -77,7 +106,9 @@ Blankson, J. N., Laeyendecker, O., Ruczinski, I., Eshleman, S. H. & Larman, H. B
   courseOverview: "Most of the fascinating phenomena studied in cell biology emerge from interactions among highly organized multimolecular structures embedded into complex and frequently dynamic cellular morphologies. For the exploration of such systems, computer simulation has proved to be an invaluable tool, and many researchers in this field have developed sophisticated computational models for application to specific cell biological questions. We have defined a series of computational test cases ranging from very simple to moderately complex, varying key features of dimensionality, reaction type, reaction speed, crowding, and cell size. We then quantified how explicit spatial and/or stochastic implementations alter outcomes, even when all methods use the same reaction network, rates, and concentrations."
   buttons: 
   - name: Publication 
+    icon: "far fa-file-alt"
     url: "https://www.molbiolcell.org/doi/10.1091/mbc.E20-08-0530"
+  hidden: TRUE
     
 - name: Comprehensive profiling of HIV antibody evolution
   authors: "Eshleman, S. H., Laeyendecker, O., Kammers, K., Chen, A., Sivay, M. V., Kottapalli, S., Sie, B. M., Yuan, T., Monaco, D. R., Mohan, D., Wansley, D., Kula, T., Morrison, C., Elledge, S. J., Brookmeyer, R., Ruczinski, I. & Larman, H. B."
@@ -88,5 +119,7 @@ Blankson, J. N., Laeyendecker, O., Ruczinski, I., Eshleman, S. H. & Larman, H. B
   courseOverview: "This study evaluates HIV antibody responses and their evolution during the course of HIV infection. A phage display system is used to characterize antibody binding to >3,300 HIV peptides in 57 adults with early- to late-stage infection."
   buttons: 
   - name: Publication 
+    icon: "far fa-file-alt"
     url: "https://pubmed.ncbi.nlm.nih.gov/31042470/"
+  hidden: TRUE
   

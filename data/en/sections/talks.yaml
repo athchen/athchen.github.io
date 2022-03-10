@@ -13,6 +13,17 @@ section:
   
 # Your accomplishments
 accomplishments:
+- name: Statistical Methods for Analyzing Phage-ImmunoPrecipitation Sequencing Data
+  timeline: "Feb 2022"
+  location: Virtual
+  organization:
+    name: Final Dissertation Defense
+    url: "https://www.youtube.com/watch?v=0dNa5N3BEnI"
+  buttons:
+  - name: Video
+    icon: "fa fa-video"
+    url: "https://www.youtube.com/watch?v=0dNa5N3BEnI"
+    
 - name: Antibody Profiling Identifies Antibody Targets Associated with Natural HIV Control
   timeline: "Mar 2021"
   location: Virtual

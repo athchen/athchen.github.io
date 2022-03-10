@@ -12,8 +12,8 @@
   {{ end }}
   <div class="container">
     <div id="acomplishment-card-holder">
-      {{ range $index, $accomplishments := .accomplishments }}
-        <div style="{{ if gt $index 2 }}display: none; transition: all 1s ease-out;{{ end }}"> 
+      {{ range $index, $accomplishments := .accomplishments}}
+        <div style="{{ if $accomplishments.hidden }} display: none; transition: all 1s ease-out;{{ end }}"> 
         {{ partial "cards/accomplishments" . }}
         </div>
       {{ end }}

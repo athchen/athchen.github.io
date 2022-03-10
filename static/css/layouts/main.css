@@ -18,9 +18,14 @@ Teal:       #248aaa
 Dark Blue:  #2098d1
 
 **New**
-Light Blue: #C6E1F2
-Blue:       #6cb0db
-Dark Blue:  #6cb0db
+Hover Blue:     #3d78c5
+Dark Blue:      #3b96cf
+Light Blue:     #A9D1EA
+Pale Blue:      #C6E1F2
+Pastel Blue:    #E1F0FA
+Pastel Pink:    #F7E0E3
+Pale Pink:      #FDB7C2
+Dark Pink:      #E68FAE
 */
 
 body {
@@ -45,7 +50,7 @@ p {
 }
 
 a {
-  color: #3d78c5;
+  color: #3b96cf;
 }
 
 a:hover {
@@ -53,18 +58,21 @@ a:hover {
 }
 
 i {
-  color: #1C2D41;
+  color: #3C4858;
 }
 
 i:hover {
-  color: #3d78c5;
+  color: #3b96cf;
+}
+
+.disabled {
+  pointer-events: none;
 }
 
 .nav-button {
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
-  color: #8392a5;
 }
 
 .btn-dark {
@@ -82,23 +90,24 @@ i:hover {
 }
 
 .btn-outline-info {
-  color: #3d78c5 !important;
-  border-color: #3d78c5 !important;
+  color: #3b96cf !important;
+  border-color: #3b96cf !important;
 }
 
 .btn-outline-info:hover {
-  background-color: #3d78c5 !important;
-  color: #e5e9f2 !important;
+  color: #3b96cf !important;
+  background-color: #e8f3f9;
+  border-color: #3b96cf !important;
 }
 
 .btn-info {
-  background-color: #6cb0db !important;
-  color: #e5e9f2 !important;
+  background-color: #A9D1EA !important;
+  color: #3C4858 !important;
 }
 
-.btn-info:hover {
+.btn-info:hover, {
   background-color: #3d78c5 !important;
-  color: #e5e9f2 !important;
+  color: #3C4858 !important;
 }
 
 .btn-link {
@@ -114,7 +123,7 @@ i:hover {
 }
 
 .bg-dimmed {
-  background-color: #e5e9f2;
+  background-color: #e6f5ff;
 }
 
 .anchor {
